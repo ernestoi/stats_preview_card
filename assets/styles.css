@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --background-oscuro: #0a0c1b;
+    --background-violeta-claro: #1c1938;
+    --color-blanco: #feffff;
+    --color-morado: #a862d7;
+    --color-gris-claro: #afacca;
+}
+html,body{
+    font-size: 62.5%;
+    background-color: var(--background-oscuro);
+    font-family: 'Poppins', serif;
+}
+.content{
+    max-width: 100vw;
+    max-height: 100vh;
+}
+.cards-component{
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-component{
+    width: 100rem;
+    display: flex;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.card-component .card-info{
+    width: 50%;
+    color: var(--color-blanco);
+    padding: 1rem 5rem 1rem 4rem;
+    background-color: var(--background-violeta-claro);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card-info .title{
+    font-size: 3.4rem;
+    margin-bottom: 2.5rem;
+    margin-top: 1.5rem;
+}
+.card-info .title .other-color{
+    color: var(--color-morado);
+}
+.card-info .about{
+    color: var(--color-gris-claro);
+    font-size: 1.4rem;
+    margin-bottom: 5rem;
+    text-align: left;
+}
+.card-info .stats{
+    display: flex;
+    justify-content:flex-start;
+    font-size: 1.5rem;
+    padding: 1rem 1rem 1rem 0;
+    gap: 7rem;
+}
+.card-info .stats .stat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+.card-info .stats .count{
+    font-weight: 600;
+    font-size: 2.2rem;
+}
+.card-info .stats .stat .companies, .templates, .queries{
+    color: var(--color-gris-claro);
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+/* ESTILOS IMG */
+.card-image{
+    width: 50%;
+    position: relative;
+}
+.card-image img{
+    width: 100%;
+    height: 100%;
+}
+.card-image::after{
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;    
+    width: 100%;
+    height: 100%;
+    background-color: rgba(97, 51, 125,0.7);
+}
