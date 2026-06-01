@@ -27,7 +27,7 @@ html,body{
     align-items: center;
 }
 .card-component{
-    width: 90rem;
+    width: 80rem;
     display: flex;
     border-radius: 1rem;
     overflow: hidden;
@@ -42,7 +42,7 @@ html,body{
     justify-content: center;
 }
 .card-info .title{
-    font-size: 3.4rem;
+    font-size: 3rem;
     margin-bottom: 2.5rem;
     margin-top: 1.5rem;
 }
