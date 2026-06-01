@@ -27,7 +27,7 @@ html,body{
     align-items: center;
 }
 .card-component{
-    width: 100rem;
+    width: 90rem;
     display: flex;
     border-radius: 1rem;
     overflow: hidden;
