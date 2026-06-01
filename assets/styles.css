@@ -42,7 +42,7 @@ html,body{
     justify-content: center;
 }
 .card-info .title{
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 2.5rem;
     margin-top: 1.5rem;
 }
@@ -51,7 +51,7 @@ html,body{
 }
 .card-info .about{
     color: var(--color-gris-claro);
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     margin-bottom: 5rem;
     text-align: left;
 }
@@ -60,7 +60,7 @@ html,body{
     justify-content:flex-start;
     font-size: 1.5rem;
     padding: 1rem 1rem 1rem 0;
-    gap: 7rem;
+    gap: 4rem;
 }
 .card-info .stats .stat{
     display: flex;
